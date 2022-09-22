@@ -1,0 +1,709 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Auroom</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta content="telephone=no" name="format-detection">
+        <!-- This make sence for mobile browsers. It means, that content has been optimized for mobile browsers -->
+        <meta name="HandheldFriendly" content="true">
+
+
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <link href="static/css/main.min.css" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+
+        <meta property="og:title" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="500" />
+        <meta property="og:image:height" content="300" />
+        <meta property="twitter:description" content="" />
+        <link rel="image_src" href="" />
+
+        <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <script>
+            (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+        </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+
+    <body class="page">
+
+
+        <header>
+            <div class="wrapper">
+                <a href="/" class="logo">
+                    <img src="static/img/content/logo.svg" alt="">
+                </a>
+                <nav>
+                    <div class="dropdown">
+                        <span class="link">Курсы</span>
+                        <div class="dropdown__links">
+                            <a href="#" class="link">Базовый курс с нуля 3D моделирование интерьера</a>
+                            <a href="#" class="link">Курс2</a>
+                            <a href="#" class="link">Курс3</a>
+                        </div>
+                    </div>
+                    <a class="link" href="/reviews.html">Отзывы</a>
+                    <a class="link" href="/blog.html">Блог</a>
+                </nav>
+                <div class="lang">
+                    <a href="#" class="active">RU</a>
+                    <a href="#">EN</a>
+                </div>
+                <a href="tel:+77073150773" class="tell">
+                    <span class="tell__icon">
+
+                    	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                            <path d="M14.7368 10.5347C13.7499 10.5347 12.7832 10.3806 11.8669 10.0783C11.4198 9.92421 10.912 10.0429 10.6181 10.3427L8.80169 11.7145C6.71748 10.6021 5.38358 9.26906 4.28633 7.20001L5.62106 5.42653C5.95706 5.09053 6.07749 4.59873 5.93349 4.13811C5.62864 3.216 5.4737 2.24842 5.4737 1.26316C5.4737 0.566724 4.90698 0 4.21054 0H1.26316C0.566724 0 0 0.566724 0 1.26316C0 9.38863 6.61137 16 14.7368 16C15.4333 16 16 15.4333 16 14.7368V11.7979C16 11.1015 15.4333 10.5347 14.7368 10.5347Z" fill="white"/>
+
+                    	</svg>
+
+                    </span>
+                    <span>+7 (707) 315-07-73</span>
+                </a>
+                <div class="callme" data-popup-open="popup__consultation">
+                    <span>заказать звонок</span>
+                </div>
+                <div class="profile">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.3417 11.6592H5.65834C2.74323 11.6592 0.371582 14.0308 0.371582 16.9459V20H19.6286V16.9459C19.6285 14.0308 17.2568 11.6592 14.3417 11.6592ZM18.4811 18.8528H1.51886V16.946C1.51886 14.6636 3.3758 12.8066 5.65827 12.8066H14.3416C16.6241 12.8066 18.4811 14.6636 18.4811 16.946L18.4811 18.8528Z"
+                        />
+                        <path d="M9.99989 11.116C13.0645 11.116 15.5579 8.62264 15.5579 5.558C15.5579 2.49335 13.0646 0 9.99989 0C6.93516 0 4.44189 2.49327 4.44189 5.558C4.44189 8.62272 6.93524 11.116 9.99989 11.116ZM9.99989 1.14735C12.432 1.14735 14.4105 3.12592 14.4105 5.558C14.4105 7.99007 12.432 9.96864 9.99989 9.96864C7.56781 9.96864 5.58924 7.99 5.58924 5.558C5.58924 3.12599 7.56781 1.14735 9.99989 1.14735Z"
+                        />
+                    </svg>
+                </div>
+                <div class="mobile__menu" data-popup-open="mobile__popup">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <div class="head set-bg-img">
+            <img src="static/img/content/head_bg.png" class="get-bg-img" alt="">
+            <div class="head__circles">
+                <svg class="svg-animate-selector" width="86" height="86" viewBox="0 0 86 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="43" cy="43" r="33" stroke="#FFB902" stroke-width="20" />
+                </svg>
+                <svg class="svg-animate-selector" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="13" cy="13" r="13" fill="#FFB902" />
+                </svg>
+            </div>
+            <div class="wrapper">
+                <div class="breadcrumbs">
+                    <div>
+                        <a href="/">Главная</a>
+                    </div>
+                    /
+                    <div>
+                        <span>Блог</span>
+                    </div>
+                </div>
+                <div class="title">
+                    <div class="title__text">
+                        Блог
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blogPage">
+            <div class="wrapper">
+                <div class="title">
+                    <div class="title__text">
+                        Все статьи
+                    </div>
+                </div>
+                <div class="hashtags">
+                    <a href="/blog.html" class="hashtags__item active">
+
+                        #Дизайн интерьера
+
+                    </a>
+                    <a href="/blog.html" class="hashtags__item">
+
+                        #3D Max
+
+                    </a>
+                </div>
+                <div class="blog">
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/blog-inner.html" class="blog__item">
+                        <div class="blog__img set-bg-img">
+                            <img src="static/img/content/blog-item.jpg" class="get-bg-img" alt="">
+                        </div>
+                        <div class="blog__overlay">
+                            <svg width="468" height="355" viewBox="0 0 468 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M43.6543 796.6C296.622 971.141 629.714 786.972 655.777 491.526C666.523 369.715 756.663 -125.54 464.001 75.9999C341.004 160.701 150.068 -70.9122 -47.9991 87.9997C-314.462 301.787 -205.858 600.22 43.6543 796.6Z" class="svg-1" />
+                                <path d="M41.463 847.053C294.616 1020.12 627.415 838.284 653.091 545.926C663.677 425.388 812.354 -69.0764 520 130C397.134 213.665 147.829 -59.0118 -49.9993 98.0002C-316.142 309.231 -208.263 652.38 41.463 847.053Z" class="svg-2" />
+                            </svg>
+
+                        </div>
+                        <div class="blog__hashtag">
+                            #Дизайн интерьера
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                Как сделать дизайн с нуля
+                            </div>
+                            <div class="blog__text">
+                                Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой. Информация понятная и интересная
+                            </div>
+                            <div class="blog__link">
+                                Читать дальше
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="paggination">
+                    <a href="/blog.html" class="paggination__left">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.297882 12.2811C0.298187 12.2808 0.298441 12.2804 0.298798 12.2801L5.60564 6.99887C6.00321 6.60323 6.64625 6.60471 7.04199 7.00232C7.43768 7.39989 7.43615 8.04293 7.03859 8.43862L3.47557 11.9844H24.9844C25.5453 11.9844 26 12.4391 26 13C26 13.5609 25.5453 14.0156 24.9844 14.0156H3.47562L7.03854 17.5614C7.4361 17.9571 7.43762 18.6001 7.04194 18.9977C6.6462 19.3953 6.00311 19.3967 5.60559 19.0011L0.298746 13.7199C0.298441 13.7196 0.298187 13.7192 0.297832 13.7189C-0.0999374 13.3219 -0.0986691 12.6768 0.297882 12.2811Z"
+                            fill="#FFB902" />
+                        </svg>
+                    </a>
+                    <a href="/blog.html" class="paggination__item active">
+
+                        1
+
+                    </a>
+                    <a href="/blog.html" class="paggination__item">
+
+                        2
+
+                    </a>
+                    <a href="/blog.html" class="paggination__item">
+
+                        3
+
+                    </a>
+                    <a href="/blog.html" class="paggination__item">
+
+                        4
+
+                    </a>
+                    <a href="/blog.html" class="paggination__item">
+
+                        5
+
+                    </a>
+                    <a href="/blog.html" class="paggination__item">
+
+                        6
+
+                    </a>
+                    <span class="paggination__item">
+
+                        ...
+
+                    </span>
+                    <a href="/blog.html" class="paggination__item">
+
+                        23
+
+                    </a>
+
+                    <a href="/blog.html" class="paggination__right">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.7021 12.2811C25.7018 12.2808 25.7016 12.2804 25.7012 12.2801L20.3944 6.99887C19.9968 6.60323 19.3538 6.60471 18.958 7.00232C18.5623 7.39989 18.5638 8.04293 18.9614 8.43862L22.5244 11.9844H1.01562C0.454695 11.9844 0 12.4391 0 13C0 13.5609 0.454695 14.0156 1.01562 14.0156H22.5244L18.9615 17.5614C18.5639 17.9571 18.5624 18.6001 18.9581 18.9977C19.3538 19.3953 19.9969 19.3967 20.3944 19.0011L25.7013 13.7199C25.7016 13.7196 25.7018 13.7192 25.7022 13.7189C26.0999 13.3219 26.0987 12.6768 25.7021 12.2811Z"
+                            fill="#FFB902" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="blogPage__bg">
+                <img src="static/img/content/left-black-bg1.svg" alt="">
+            </div>
+            <div class="blogPage__circles">
+                <svg class="svg-animate-selector" width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle r="32.5" transform="matrix(-1 0 0 1 45 45)" stroke="#FFB902" stroke-width="25" />
+                </svg>
+                <svg class="svg-animate-selector" width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle r="46.5" transform="matrix(-1 0 0 1 64 64)" stroke="#252525" stroke-width="35" />
+                </svg>
+            </div>
+        </div>
+
+
+
+
+
+
+        <footer>
+            <div class="wrapper">
+                <div class="footer__blocks">
+                    <div class="footer__block">
+                        <div class="footer__nav">
+                            <div>
+                                <a href="#">О нас</a>
+                            </div>
+                            <div>
+                                <a href="/reviews.html">Отзывы</a>
+                            </div>
+                            <div>
+                                <a href="#">Контакты</a>
+                            </div>
+                            <div>
+                                <a href="#">Обучение</a>
+                            </div>
+                            <div>
+                                <a href="/blog.html">Блог</a>
+                            </div>
+                            <div>
+                                <a href="#">Личный кабинет</a>
+                            </div>
+                        </div>
+
+                        <div class="footer__info">
+                            <div class="footer__tell">
+                                <a href="tel:+771723150773">+7 (7172) 315-07-73</a>
+                                <a href="tel:+77073150773">+7 (707) 315-07-73</a>
+                            </div>
+                            <div class="footer__address">
+                                <span>
+
+        							г. Нур-Султан ул. Улица 12, офис 200
+
+        						</span>	
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <div class="footer__social">
+                            <div class="footer__social-link">
+                                <span>
+
+        							<b>Студия дизайна</b>
+
+                                    ИНТЕРЬЕРЫ AUROOM
+
+        						</span>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.1482 0H6.85182C3.07371 0 0 3.07371 0 6.85182V16.1482C0 19.9263 3.07371 23 6.85182 23H16.1482C19.9263 23 23 19.9263 23 16.1482V6.85182C23 3.07371 19.9262 0 16.1482 0ZM20.6862 16.1482C20.6862 18.6544 18.6544 20.6862 16.1482 20.6862H6.85182C4.34556 20.6862 2.3138 18.6544 2.3138 16.1482V6.85182C2.3138 4.34552 4.34556 2.3138 6.85182 2.3138H16.1482C18.6544 2.3138 20.6862 4.34552 20.6862 6.85182V16.1482Z"
+                                        fill="white" />
+                                        <path d="M16.1482 0H6.85182C3.07371 0 0 3.07371 0 6.85182V16.1482C0 19.9263 3.07371 23 6.85182 23H16.1482C19.9263 23 23 19.9263 23 16.1482V6.85182C23 3.07371 19.9262 0 16.1482 0ZM20.6862 16.1482C20.6862 18.6544 18.6544 20.6862 16.1482 20.6862H6.85182C4.34556 20.6862 2.3138 18.6544 2.3138 16.1482V6.85182C2.3138 4.34552 4.34556 2.3138 6.85182 2.3138H16.1482C18.6544 2.3138 20.6862 4.34552 20.6862 6.85182V16.1482Z"
+                                        />
+                                        <path d="M11.4999 5.55127C8.21981 5.55127 5.55127 8.21981 5.55127 11.4998C5.55127 14.7799 8.21981 17.4485 11.4999 17.4485C14.78 17.4485 17.4485 14.7799 17.4485 11.4998C17.4485 8.21977 14.78 5.55127 11.4999 5.55127ZM11.4999 15.1347C9.49242 15.1347 7.86507 13.5074 7.86507 11.4999C7.86507 9.49242 9.49246 7.86507 11.4999 7.86507C13.5074 7.86507 15.1347 9.49242 15.1347 11.4999C15.1347 13.5073 13.5073 15.1347 11.4999 15.1347Z"
+                                        fill="white" />
+                                        <path d="M11.4999 5.55127C8.21981 5.55127 5.55127 8.21981 5.55127 11.4998C5.55127 14.7799 8.21981 17.4485 11.4999 17.4485C14.78 17.4485 17.4485 14.7799 17.4485 11.4998C17.4485 8.21977 14.78 5.55127 11.4999 5.55127ZM11.4999 15.1347C9.49242 15.1347 7.86507 13.5074 7.86507 11.4999C7.86507 9.49242 9.49246 7.86507 11.4999 7.86507C13.5074 7.86507 15.1347 9.49242 15.1347 11.4999C15.1347 13.5073 13.5073 15.1347 11.4999 15.1347Z"
+                                        />
+                                        <path d="M17.4601 7.02123C18.2473 7.02123 18.8855 6.38306 18.8855 5.59582C18.8855 4.80859 18.2473 4.17041 17.4601 4.17041C16.6728 4.17041 16.0347 4.80859 16.0347 5.59582C16.0347 6.38306 16.6728 7.02123 17.4601 7.02123Z" fill="white" />
+                                        <path d="M17.4601 7.02123C18.2473 7.02123 18.8855 6.38306 18.8855 5.59582C18.8855 4.80859 18.2473 4.17041 17.4601 4.17041C16.6728 4.17041 16.0347 4.80859 16.0347 5.59582C16.0347 6.38306 16.6728 7.02123 17.4601 7.02123Z" />
+                                    </svg>
+                                    @auroom.interiors
+                                </a>
+                            </div>
+                            <div class="footer__social-link">
+                                <span>
+
+        							<b>Школа дизайна</b>
+
+                                    АКАДЕМИЯ AUROOM
+
+        						</span>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.1482 0H6.85182C3.07371 0 0 3.07371 0 6.85182V16.1482C0 19.9263 3.07371 23 6.85182 23H16.1482C19.9263 23 23 19.9263 23 16.1482V6.85182C23 3.07371 19.9262 0 16.1482 0ZM20.6862 16.1482C20.6862 18.6544 18.6544 20.6862 16.1482 20.6862H6.85182C4.34556 20.6862 2.3138 18.6544 2.3138 16.1482V6.85182C2.3138 4.34552 4.34556 2.3138 6.85182 2.3138H16.1482C18.6544 2.3138 20.6862 4.34552 20.6862 6.85182V16.1482Z"
+                                        fill="white" />
+                                        <path d="M16.1482 0H6.85182C3.07371 0 0 3.07371 0 6.85182V16.1482C0 19.9263 3.07371 23 6.85182 23H16.1482C19.9263 23 23 19.9263 23 16.1482V6.85182C23 3.07371 19.9262 0 16.1482 0ZM20.6862 16.1482C20.6862 18.6544 18.6544 20.6862 16.1482 20.6862H6.85182C4.34556 20.6862 2.3138 18.6544 2.3138 16.1482V6.85182C2.3138 4.34552 4.34556 2.3138 6.85182 2.3138H16.1482C18.6544 2.3138 20.6862 4.34552 20.6862 6.85182V16.1482Z"
+                                        />
+                                        <path d="M11.4999 5.55127C8.21981 5.55127 5.55127 8.21981 5.55127 11.4998C5.55127 14.7799 8.21981 17.4485 11.4999 17.4485C14.78 17.4485 17.4485 14.7799 17.4485 11.4998C17.4485 8.21977 14.78 5.55127 11.4999 5.55127ZM11.4999 15.1347C9.49242 15.1347 7.86507 13.5074 7.86507 11.4999C7.86507 9.49242 9.49246 7.86507 11.4999 7.86507C13.5074 7.86507 15.1347 9.49242 15.1347 11.4999C15.1347 13.5073 13.5073 15.1347 11.4999 15.1347Z"
+                                        fill="white" />
+                                        <path d="M11.4999 5.55127C8.21981 5.55127 5.55127 8.21981 5.55127 11.4998C5.55127 14.7799 8.21981 17.4485 11.4999 17.4485C14.78 17.4485 17.4485 14.7799 17.4485 11.4998C17.4485 8.21977 14.78 5.55127 11.4999 5.55127ZM11.4999 15.1347C9.49242 15.1347 7.86507 13.5074 7.86507 11.4999C7.86507 9.49242 9.49246 7.86507 11.4999 7.86507C13.5074 7.86507 15.1347 9.49242 15.1347 11.4999C15.1347 13.5073 13.5073 15.1347 11.4999 15.1347Z"
+                                        />
+                                        <path d="M17.4601 7.02123C18.2473 7.02123 18.8855 6.38306 18.8855 5.59582C18.8855 4.80859 18.2473 4.17041 17.4601 4.17041C16.6728 4.17041 16.0347 4.80859 16.0347 5.59582C16.0347 6.38306 16.6728 7.02123 17.4601 7.02123Z" fill="white" />
+                                        <path d="M17.4601 7.02123C18.2473 7.02123 18.8855 6.38306 18.8855 5.59582C18.8855 4.80859 18.2473 4.17041 17.4601 4.17041C16.6728 4.17041 16.0347 4.80859 16.0347 5.59582C16.0347 6.38306 16.6728 7.02123 17.4601 7.02123Z" />
+                                    </svg>
+                                    @ auroom.online
+                                </a>
+                            </div>
+                            <div class="footer__social-link">
+                                <span>
+
+        							<b>YouTube канал</b>
+
+                                    AUROOM ONLINE
+
+        						</span>
+                                <a href="https://www.youtube.com/" target="_blank">
+                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.5261 5.97881C22.261 4.99352 21.4841 4.21686 20.499 3.95154C18.6992 3.45898 11.4998 3.45898 11.4998 3.45898C11.4998 3.45898 4.30055 3.45898 2.5007 3.93277C1.53453 4.19791 0.738751 4.99369 0.473608 5.97881C0 7.77849 0 11.5108 0 11.5108C0 11.5108 0 15.262 0.473608 17.0429C0.738927 18.028 1.51558 18.8048 2.50087 19.0701C4.3195 19.5627 11.5 19.5627 11.5 19.5627C11.5 19.5627 18.6992 19.5627 20.499 19.0889C21.4843 18.8238 22.261 18.047 22.5263 17.0618C22.9999 15.262 22.9999 11.5298 22.9999 11.5298C22.9999 11.5298 23.0189 7.77849 22.5261 5.97881Z"
+                                        fill="#FF0000" />
+                                        <path d="M9.20752 14.9587L15.1942 11.5106L9.20752 8.0625V14.9587Z" fill="white" />
+                                    </svg>
+                                    /auroom.online
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__politic">
+                            <a href="#">Политика конфеденциальности</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__help">
+                    <div class="footer__title">
+                        Остались вопросы?
+                    </div>
+                    <div class="footer__text">
+                        Мы перезвоним вам и дадим развернутый ответ
+                    </div>
+                    <div class="button" data-popup-open="popup__consultation">Получить ответ</div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="wrapper">
+                <span>(с) Auroom Online 2020, Все права защищены</span>
+                <span>Разработано в <a href="#">ПОРОХ</a></span>
+            </div>
+        </div>
+
+
+        <div class="overlay popupClose"></div>
+
+        <div class="mobile__popup">
+            <div class="popup__close popupClose">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.99418 9.00076L17.7938 1.20108C18.0684 0.926474 18.0684 0.481256 17.7938 0.206686C17.5192 -0.0678837 17.074 -0.0679188 16.7994 0.206686L8.99975 8.00637L1.2001 0.206686C0.925497 -0.0679188 0.480279 -0.0679188 0.20571 0.206686C-0.0688602 0.481291 -0.0688954 0.926509 0.20571 1.20108L8.00536 9.00072L0.20571 16.8004C-0.0688954 17.075 -0.0688954 17.5202 0.20571 17.7948C0.342994 17.9321 0.522959 18.0007 0.702924 18.0007C0.882888 18.0007 1.06282 17.9321 1.20014 17.7948L8.99975 9.99515L16.7994 17.7948C16.9367 17.9321 17.1166 18.0007 17.2966 18.0007C17.4766 18.0007 17.6565 17.9321 17.7938 17.7948C18.0684 17.5202 18.0684 17.075 17.7938 16.8004L9.99418 9.00076Z"
+                    fill="#000" />
+                </svg>
+            </div>
+            <div class="mobile__popup-buttons">
+
+            </div>
+        </div>
+
+        <div class="popup popup__consultation">
+            <div class="popup__close popupClose">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.99418 9.00076L17.7938 1.20108C18.0684 0.926474 18.0684 0.481256 17.7938 0.206686C17.5192 -0.0678837 17.074 -0.0679188 16.7994 0.206686L8.99975 8.00637L1.2001 0.206686C0.925497 -0.0679188 0.480279 -0.0679188 0.20571 0.206686C-0.0688602 0.481291 -0.0688954 0.926509 0.20571 1.20108L8.00536 9.00072L0.20571 16.8004C-0.0688954 17.075 -0.0688954 17.5202 0.20571 17.7948C0.342994 17.9321 0.522959 18.0007 0.702924 18.0007C0.882888 18.0007 1.06282 17.9321 1.20014 17.7948L8.99975 9.99515L16.7994 17.7948C16.9367 17.9321 17.1166 18.0007 17.2966 18.0007C17.4766 18.0007 17.6565 17.9321 17.7938 17.7948C18.0684 17.5202 18.0684 17.075 17.7938 16.8004L9.99418 9.00076Z"
+                    fill="white" />
+                </svg>
+            </div>
+            <div class="popup__title">
+                Хотите узнать как <span>поднять свои доходы</span> от любимого занятия?
+            </div>
+            <div class="popup__text">
+                Задайте вопрос нашему менеджеру по своему направлению:
+            </div>
+            <div class="popup__form">
+                <input type="text" class="input" placeholder="Введите имя">
+                <input type="text" class="input tel-mask" placeholder="Номер телефона">
+                <button class="button">
+                    <!-- .loading -->
+                    Получить консультацию
+                </button>
+                <div class="form-text">
+                    * Конфиденциальность данных гарантируем
+                </div>
+            </div>
+        </div>
+
+        <div class="popup popup__review">
+            <div class="popup__close popupClose">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.99418 9.00076L17.7938 1.20108C18.0684 0.926474 18.0684 0.481256 17.7938 0.206686C17.5192 -0.0678837 17.074 -0.0679188 16.7994 0.206686L8.99975 8.00637L1.2001 0.206686C0.925497 -0.0679188 0.480279 -0.0679188 0.20571 0.206686C-0.0688602 0.481291 -0.0688954 0.926509 0.20571 1.20108L8.00536 9.00072L0.20571 16.8004C-0.0688954 17.075 -0.0688954 17.5202 0.20571 17.7948C0.342994 17.9321 0.522959 18.0007 0.702924 18.0007C0.882888 18.0007 1.06282 17.9321 1.20014 17.7948L8.99975 9.99515L16.7994 17.7948C16.9367 17.9321 17.1166 18.0007 17.2966 18.0007C17.4766 18.0007 17.6565 17.9321 17.7938 17.7948C18.0684 17.5202 18.0684 17.075 17.7938 16.8004L9.99418 9.00076Z"
+                    fill="white" />
+                </svg>
+            </div>
+            <div class="popup-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="static/img/content/slider.png" class="popup-slider-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="static/img/content/slider.png" class="popup-slider-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="static/img/content/slider.png" class="popup-slider-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="static/img/content/slider.png" class="popup-slider-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-buttons">
+                    <div class="left swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.297882 12.2811C0.298187 12.2808 0.298441 12.2804 0.298798 12.2801L5.60564 6.99887C6.00321 6.60323 6.64625 6.60471 7.04199 7.00232C7.43768 7.39989 7.43615 8.04293 7.03859 8.43862L3.47557 11.9844H24.9844C25.5453 11.9844 26 12.4391 26 13C26 13.5609 25.5453 14.0156 24.9844 14.0156H3.47562L7.03854 17.5614C7.4361 17.9571 7.43762 18.6001 7.04194 18.9977C6.6462 19.3953 6.00311 19.3967 5.60559 19.0011L0.298746 13.7199C0.298441 13.7196 0.298187 13.7192 0.297832 13.7189C-0.0999374 13.3219 -0.0986691 12.6768 0.297882 12.2811Z"
+                            fill="#FFB902"></path>
+                        </svg>
+                    </div>
+                    <div class="right" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.7021 12.2811C25.7018 12.2808 25.7016 12.2804 25.7012 12.2801L20.3944 6.99887C19.9968 6.60323 19.3538 6.60471 18.958 7.00232C18.5623 7.39989 18.5638 8.04293 18.9614 8.43862L22.5244 11.9844H1.01562C0.454695 11.9844 0 12.4391 0 13C0 13.5609 0.454695 14.0156 1.01562 14.0156H22.5244L18.9615 17.5614C18.5639 17.9571 18.5624 18.6001 18.9581 18.9977C19.3538 19.3953 19.9969 19.3967 20.3944 19.0011L25.7013 13.7199C25.7016 13.7196 25.7018 13.7192 25.7022 13.7189C26.0999 13.3219 26.0987 12.6768 25.7021 12.2811Z"
+                            fill="#FFB902 "></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-desc">
+                <div class="popup-author">
+                    <div class="popup-author-photo">
+                        <img src="static/img/content/reviews-photo.jpg" class="popup-slider-img" alt="">
+                    </div>
+                    <div class="popup-author-info">
+                        <span>Ксения Олейникова</span>
+                        <p>Ученица 3-го потока “3D визуализация”</p>
+                    </div>
+                </div>
+                <div class="popup-author-text">
+                    Понравилась подача информации в доступном и доброжелательном ключе. Дается система, теория сочетается с практикой.
+                    <br>
+                    <br>Информация понятная и интересная,все четко,конкретно,с примерами. По каждому выполненному заданию преподаватели дают практические рекомендации,которые помогают понять ошибки и сделать исправления.
+                    <br>
+                    <br>Полученные знания я смогу применить для своего бизнеса и добиться хороших результатов.
+                    <br>
+                    <br>Большое спасибо преподавателям Вологиной Ольге Вячеславовне и Васину Якову Михайловичу за профессиональное обучение.
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+        <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
+        <script src="static/js/main.min.js"></script>
+    </body>
+
+</html>
